@@ -6,52 +6,58 @@ _______________________________________________U S E R__________________________
 
 2. As a user, I need to be able to log out.
 
-3. As a user, I need to be able to request registration as a patient.       // IUser - PatientClass 
+3. As a user, I need to be able to request registration as a patient.
 
 _______________________________________________A D M I N_______________________________________________________________
 
-4.  As an admin with sufficient permissions, I need to be able to give admins the permission to handle the permission system, in fine granularity.
-
-5.  As an admin with sufficient permissions, I need to be able to assign admins to certain regions.
+4.  As an admin with sufficient permissions, I need to be able to give admins the permission to handle the permission system, in fine granularity. 
 
 6.  As an admin with sufficient permissions, I need to be able to give admins the permission to handle registrations.
 
-8.  As an admin with sufficient permissions, I need to be able to give admins the permission to add locations.
+7.  As an admin with sufficient permissions, I need to be able to give admins the permission to add locations.
 
-9.  As an admin with sufficient permissions, I need to be able to give admins the permission to create accounts for personnel.
+8.  As an admin with sufficient permissions, I need to be able to give admins the permission to create accounts for personnel.
 
-10. As an admin with sufficient permissions, I need to be able to give admins the permission to view a list of who has permission to what.
+9.  As an admin with sufficient permissions, I need to be able to give admins the permission to view a list of who has permission to what.
 
-11. As an admin with sufficient permissions, I need to be able to add locations.
+14. As an admin with sufficient permissions, I need to be able to view a list of who has permission to what.
 
-12. As an admin with sufficient permissions, I need to be able to accept user registration as patients.
+5.  As an admin with sufficient permissions, I need to be able to assign admins to certain regions.
 
-13. As an admin with sufficient permissions, I need to be able to deny user registration as patients.
 
-14. As an admin with sufficient permissions, I need to be able to create accounts for personnel.
+10. As an admin with sufficient permissions, I need to be able to add locations.
 
-15. As an admin with sufficient permissions, I need to be able to view a list of who has permission to what.
+11. As an admin with sufficient permissions, I need to be able to accept user registration as patients.
 
-________________________________________________P E R S O N N E L_____________________________________________________________
+12. As an admin with sufficient permissions, I need to be able to deny user registration as patients.
 
-16. As personnel with sufficient permissions, I need to be able to view a patients journal entries.
+13. As an admin with sufficient permissions, I need to be able to create accounts for personnel.
 
-17. As personnel with sufficient permissions, I need to be able to mark journal entries with different levels of read permissions.
+________________________________________________P E R S O N N E L______________________________________________________
 
-18. As personnel with sufficient permissions, I need to be able to register appointments.
+16. As personnel with sufficient permissions, I need to be able to mark journal entries with different levels of read permissions.
 
-19. As personnel with sufficient permissions, I need to be able to modify appointments.
+15. As personnel with sufficient permissions, I need to be able to view a patients journal entries.
 
-20. As personnel with sufficient permissions, I need to be able to approve appointment requests.
+17. As personnel with sufficient permissions, I need to be able to register appointments.
 
-21. As personnel with sufficient permissions, I need to be able to view the schedule of a location.
+18. As personnel with sufficient permissions, I need to be able to modify appointments.
 
-_______________________________________________P A T I E N T_____________________________________________________________________________________________
+19. As personnel with sufficient permissions, I need to be able to approve appointment requests.
 
-22. As a patient, I need to be able to view my own journal.
+20. As personnel with sufficient permissions, I need to be able to view the schedule of a location.
 
-23. As a patient, I need to be able to request an appointment.
+_______________________________________________P A T I E N T_____________________________________________________________________
 
-_______________________________________________P A T I E N T  &  P E R S O N N E L_____________________________________________________________________________________________
+21. As a patient, I need to be able to view my own journal.
 
-24. As a logged in user, I need to be able to view my schedule.
+22. As a patient, I need to be able to request an appointment.
+
+_______________________________________________P A T I E N T  &  P E R S O N N E L______________________________
+
+23. As a logged in user, I need to be able to view my schedule.
+
+
+
+Permissions:
+SysAdmin -> admin -> personal
